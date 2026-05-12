@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot</title>
+  <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+  
+  <!-- Botão principal -->
+  <button class="chatbot-btn"></button>
+
+  <!-- Tela de carregamento -->
+  <div class="loading-screen" id="loadingScreen">
+    <p>🔄 Verificando servidor...</p>
+  </div>
+
+  <!-- Painel de opções -->
+  <div class="options-panel" id="optionsPanel">
+    <button>Problemas</button>
+    <button>Dúvidas</button>
+    <button>Informação</button>
+  </div>
+
+  <!-- Chatbox -->
+  <div class="chatbox" id="chatbox">
+    <div class="chatbox-header">
+      <span id="chatboxTitle">Chat</span>
+      <button id="closeChat">✖</button>
+    </div>
+    <div class="chatbox-body" id="chatboxBody">
+      <p>Bem-vindo ao chat!</p>
+    </div>
+    <div class="chatbox-footer">
+      <input type="text" id="chatInput" placeholder="Digite sua mensagem...">
+      <button id="sendBtn">Enviar</button>
+    </div>
+  </div>
+
+  <!-- Script do frontend -->
+<script src="animação.js"></script>
+</body>
+</html>
