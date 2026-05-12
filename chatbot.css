@@ -1,3 +1,6 @@
+html, body {
+  background: transparent !important;
+}
 /* === PALETA: AZUL DOMINANTE + DOURO/AMARELO PARA BOTÕES E DETALHES === */
 
 /* === BOTÃO DO CHAT === */
