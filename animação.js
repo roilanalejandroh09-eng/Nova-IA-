@@ -72,7 +72,7 @@ async function enviarParaAPI(opcao) {
   const typing = showTypingIndicator();
 
   try {
-    const resposta = await fetch("http://localhost:3000/api/chat", {
+    const resposta = await fetch("/api/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: opcao })
