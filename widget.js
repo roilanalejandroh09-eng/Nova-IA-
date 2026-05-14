@@ -5,10 +5,8 @@
   document.body.appendChild(container);
 
   // Cria o botão
-  const botao = document.createElement('button');
-  
+  const botao = document.createElement('button') 
   botao.style.padding = '10px 20px';
-  botao.style.backgroundColor = '#007BFF';
   botao.style.color = '#fff';
   botao.style.border = 'none';
   botao.style.borderRadius = '5px';
