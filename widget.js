@@ -6,7 +6,7 @@
 
   // Cria o botão
   const botao = document.createElement('button');
-  botao.innerText = 'Clique aqui';
+  
   botao.style.padding = '10px 20px';
   botao.style.backgroundColor = '#007BFF';
   botao.style.color = '#fff';
