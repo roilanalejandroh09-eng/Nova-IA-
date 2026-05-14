@@ -10,14 +10,16 @@
   botao.style.borderRadius = '50%';
   botao.style.backgroundColor = '#001F7A'; // cor do botão/logo
   botao.style.border = '3px solid #FFD700'; // borda amarela
-  botao.style.cursor = 'default'; // sem ação
   botao.style.zIndex = '9999';
-  botao.style.boxShadow = 'none'; // sem sombra
-  botao.innerHTML = '<span style="color:white;font-size:24px;font-weight:bold;">A</span>'; // logo
+  botao.style.display = 'flex';
+  botao.style.alignItems = 'center';
+  botao.style.justifyContent = 'center';
+  botao.style.boxShadow = 'none';
+  botao.innerHTML = '<span style="color:white;font-size:24px;font-weight:bold;">A</span>';
 
-  // Remove qualquer interatividade
+  // Aqui você decide se o botão vai abrir o chat ou não
+  // Se não quiser interatividade, deixa vazio:
   botao.onclick = null;
 
   document.body.appendChild(botao);
 })();
-
